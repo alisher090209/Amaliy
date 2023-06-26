@@ -138,6 +138,7 @@ img {
   border-left: 0;
   border-width: 0;
   border-bottom: 1px solid #F0F0F0;
+  margin-bottom: 1rem;
 }
 .search .submit {
   width: 27%;
