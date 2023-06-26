@@ -101,14 +101,31 @@ img {
   padding: 4rem 0;
   background-color: #FFF;
   margin: 0 auto;
+  text-align: center;
+}
+.search .button {
+  padding: 10px 20px;
+  border: 0;
+  border: 1px solid blue;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1rem;
+  cursor: pointer;
+}
+.search .button:hover {
+  background-color: blue;
+  color: white;
 }
 .search .bg {
-  width: 100%;
+  width: 90%;
   padding: 2rem 0.7rem;
+  margin: 0 auto;
   background-color: #FFF;
+  margin-top: 12rem;
   box-shadow: 0 -5px 10px grey, 0 -15px 15px grey, 0 -20px 20px gray, 0 30px 30px grey;
+  border: 1px solid #fff;
 }
-.search .bg input {
+.search input {
   width: 35%;
   height: 50px;
   font-family: var(--monster);
@@ -122,7 +139,7 @@ img {
   border-width: 0;
   border-bottom: 1px solid #F0F0F0;
 }
-.search .bg .submit {
+.search .submit {
   width: 27%;
   background-color: #F97616;
   color: #FFF;

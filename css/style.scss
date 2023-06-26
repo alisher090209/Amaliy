@@ -108,11 +108,21 @@
 }
 .search{
   @include card(#FFF);
+  text-align: center;
+  .button{
+    
+    @include btn(blue, white);
+    cursor: pointer;
+  }
     .bg{
-      width: 100%;
+      width: 90%;
       padding: 2rem 0.7rem;
+      margin: 0 auto;
       background-color: #FFF;
+      margin-top: 12rem;
       box-shadow: 0 -5px 10px grey, 0 -15px 15px grey, 0 -20px 20px gray, 0 30px 30px grey;
+      border: 1px solid #fff;
+    }
       input{
         width: 35%;
         height: 50px; 
@@ -135,7 +145,7 @@
         font-size: 1.2rem;
       }
     }
-}
+
 
 .abount{
   @include card (#FFF);
